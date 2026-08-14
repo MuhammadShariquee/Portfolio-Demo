@@ -59,3 +59,6 @@ These are the only things the spec allows to stay as placeholders, and they're a
 - Dark mode is implemented via a `data-theme` attribute + a pre-hydration inline script (no flash of incorrect theme), toggled from the nav.
 - The Case Study shared-element expand uses `motion` (the successor to Framer Motion) for the `layoutId`-based transition; everything else uses plain CSS transitions off the design tokens.
 - Every animation respects `prefers-reduced-motion` and falls back to an instant, opacity-only state.
+
+
+THIS IS A DEMO IM CURRENTLY WORKING ON IT
